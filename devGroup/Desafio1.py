@@ -22,3 +22,10 @@ print(f"Anos Estudados: {anos_estudados}")
 print(f"Nível de XP: {nivel_xp}")
 print("=" * 42)
 
+if nivel_xp < 500:
+    print("Status: Iniciante")
+elif 500 <= nivel_xp < 1000:
+    print("Status: Intermediário")
+else:
+    print("Status: Avançado")
+    
